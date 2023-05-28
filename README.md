@@ -2,7 +2,7 @@
 
 Navigation through an unknown environment requires the development of advanced navigation algorithms that can continuously and accurately detect new obstacles and adjust the ROV’s trajectory in real-time to avoid a collision. 
 
-In this project, the robot to traverse a two-dimensional maze where the position of the obstacles is initially unknown. Implemented in ROS noetic environment, for this, an A* search algorithm is used to navigate and maneuver around obstacles from a definite start point to a set destination point. Also makes use of a grid map to define the parameters of the maze in order to generate a path whenever an obstacle is detected along the path.
+In this project, a {BlueROV}https://docs.bluerobotics.com/bluerov/ robot to traverse a two-dimensional maze where the position of the obstacles is initially unknown. Implemented in ROS noetic environment, for this, an A* search algorithm is used to navigate and maneuver around obstacles from a definite start point to a set destination point. Also makes use of a grid map to define the parameters of the maze in order to generate a path whenever an obstacle is detected along the path.
 
  <p align="left">
   <img src="Autonomous Underwater Robotics Image/Fig 14 The testing environment for the experiment.png" width="350" title="The testing environment for the experiment">
